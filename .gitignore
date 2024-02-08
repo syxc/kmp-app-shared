@@ -7,13 +7,17 @@ local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
+Thumbs.db
 
 # Android Studio generated files and folders
 captures/
 .externalNativeBuild/
 .cxx/
 *.apk
+*.aab
 output.json
+output-metadata.json
 
 # IntelliJ
 *.iml
@@ -31,3 +35,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Signing configuration file
+keystore.properties
+
+# Fleet
+.fleet/
